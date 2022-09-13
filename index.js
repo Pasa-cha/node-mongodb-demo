@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const Todo = require("./models/todo");
 const PORT = process.env.PORT || 4000;
-// const DB_String = process.env.CUSTOMCONNSTR_mongodb_url;
+const DB_String = process.env.CUSTOMCONNSTR_mongodb_url;
 
 // Example MongoDB Database Connection Address
 const DB_String =
